@@ -1,0 +1,25 @@
+#tab2 {
+  display:block;
+  overflow:auto;
+  height:250px;
+  width:300px;
+  border-color: darkgreen;
+  position: relative;
+  border-width: 2px;
+}
+
+#userstext {
+	margin-left: 29%;
+	text-align: left;
+	font-weight: bold;
+}
+
+#tab2 tr {
+  border-color: blue  ;
+  text-align: center;
+}
+
+#tab2 td { 
+  width: 67.2%;
+}
+

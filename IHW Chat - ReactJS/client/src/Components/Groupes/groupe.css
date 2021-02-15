@@ -1,0 +1,37 @@
+#tab1 {
+  display:block;
+  overflow:auto;
+  height:200px;
+  width:100%;
+  margin-left: 0.5%;
+  border-color: darkgreen;
+  border-width: 2px;
+}
+
+#text-input2 {
+	width: 20%;
+	border-radius : 5%;
+	text-align: center;
+	margin-left: 57%
+}
+
+#groupestext {
+	margin-left: 1%;
+	font-weight: bold;
+}
+
+#addgroupe {
+	margin-left: 1%;
+	margin-bottom: 1%;
+}
+
+#tab1 td {
+	width:20%;
+}
+
+#fisrtcell {
+	background-color: blue;
+}
+
+
+

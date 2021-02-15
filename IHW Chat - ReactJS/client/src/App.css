@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+body{
+  background-color: thistle;
+  text-align: center;
+}  
+#gauche{
+  padding-top: 1%;
+  width: 50%;
+  float: left;
+}
+
+
+#droite{
+  float: right;
+  width:50%;
+}
+
+#messageprive {
+	background-color: white !important;
+    border-radius: 6px;
+    color: #99CC00;
+}
+
+
