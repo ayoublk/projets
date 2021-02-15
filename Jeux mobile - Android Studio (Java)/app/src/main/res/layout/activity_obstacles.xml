@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/obstacle"
+    tools:context=".MainActivity">
+
+    <Chronometer
+        android:id="@+id/chronometre"
+        android:layout_width="266dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="100dp"
+        android:fontFamily="@font/gameboy"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/pikachu"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pikachu" />
+
+    <ImageView
+        android:id="@+id/superball"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pokeball"
+        app:srcCompat="@drawable/superball" />
+
+    <ImageView
+        android:id="@+id/hyperball"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/masterball"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/hyperball" />
+
+    <ImageView
+        android:id="@+id/masterball"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/masterball" />
+
+    <ImageView
+        android:id="@+id/pokeball"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="140dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pokeball"
+        tools:layout_editor_absoluteX="68dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

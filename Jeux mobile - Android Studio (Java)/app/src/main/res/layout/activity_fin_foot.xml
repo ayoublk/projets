@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menuscreen"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/com"
+        android:layout_width="369sp"
+        android:layout_height="63sp"
+        android:fontFamily="@font/gameboy"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.522" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="328sp"
+        android:layout_height="122sp"
+        android:layout_marginStart="124sp"
+        android:layout_marginEnd="125sp"
+        android:layout_marginBottom="279sp"
+        android:fontFamily="@font/gameboy"
+        android:text="GAME OVER"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.182"
+        tools:text="GAME OVER" />
+
+
+    <TextView
+        android:id="@+id/ScoreF"
+        android:layout_width="369sp"
+        android:layout_height="63sp"
+        android:fontFamily="@font/gameboy"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.28" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="242sp"
+        android:layout_height="84sp"
+        android:fontFamily="@font/gameboy"
+        android:text="Score :"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.603"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.384" />
+
+    <Button
+        android:id="@+id/RestartButton"
+        android:layout_width="285sp"
+        android:layout_height="57sp"
+        android:layout_marginStart="100sp"
+        android:layout_marginTop="172sp"
+        android:layout_marginEnd="100sp"
+        android:fontFamily="@font/gameboy"
+        android:text="RECOMMENCER"
+        android:backgroundTint="#00FFFFFF"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ScoreF" />
+
+    <Button
+        android:id="@+id/menuprincipal"
+        android:layout_width="285sp"
+        android:layout_height="57sp"
+        android:layout_marginStart="100sp"
+        android:layout_marginTop="248sp"
+        android:layout_marginEnd="100sp"
+        android:backgroundTint="#00FFFFFF"
+        android:fontFamily="@font/gameboy"
+        android:text="MENU PRINCIPAL"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ScoreF" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
